@@ -1,0 +1,215 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+#CV {
+  border: 2px solid black;
+  margin: 10px 450px;
+}
+body {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+#img img {
+  margin-top: 50px;
+  height: 150px;
+  width: 150px;
+  margin-bottom: 10px;
+}
+.box h1 {
+  text-align: center;
+  font-weight: 10px;
+}
+.boxes {
+  text-align: center;
+  display: flex;
+  padding-left: 200px;
+  margin-bottom: 30px;
+}
+.boxes .box {
+  text-align: center;
+  background: rgb(255, 98, 0);
+  color: white;
+  height: 25px;
+  margin: 10px;
+  border-radius: 20px;
+  padding: 0px 10px;
+  font-size: 18px;
+}
+#part1 {
+  text-align: center;
+  display: flex;
+}
+.objective p {
+  text-align: center;
+  background: rgb(93, 93, 93);
+  color: white;
+  margin: 10px;
+  border-radius: 20px;
+  padding: 0px 20px;
+  font-size: 18px;
+}
+.contact .img {
+  /* filter: invert(100%); */
+  height: 20px;
+  width: 20px;
+}
+.contact .img6{
+    filter: invert(100%);
+}
+.contact div {
+  /* text-align: center; */
+  text-align: left;
+  background: rgb(93, 93, 93);
+  color: white;
+  height: 25px;
+  margin: 10px; 
+  border-radius: 20px;
+  font-size: 18px;
+  padding: 0px 0px;
+  padding-left: 10px;
+  margin-left: 12px;
+  padding-right: 0px;
+}
+.contact a{
+    text-decoration: dashed;
+    color: white;
+    padding-left: 5px;
+}
+.contact h1{
+    padding: 0px 80px;
+    text-align: center;
+}
+
+.contact{
+   margin-right: 40px;
+}
+.contact .img6{
+    /* filter: invert(100%); */
+    height: 20px;
+    width: 20px; 
+}
+/* part 2 start here */
+#part2 {
+  display: flex;
+  /* border: 2px solid black; */
+  text-align: left;
+}
+#part2 .experience div {
+  text-align: center;
+  background: rgb(93, 93, 93);
+  color: white;
+  height: 25px;
+  margin: 10px 0px;
+  border-radius: 20px;
+  padding: 0px 20px;
+  /* margin: 0px 400px; */
+  font-size: 18px;
+}
+#part2 .experience .box {
+  text-align: center;
+  background: rgb(255, 98, 0);
+  color: white;
+  height: 25px;
+  margin: 10px 0px;
+  border-radius: 20px;
+  padding: 0px 80px;
+  /* margin: 0px 400px; */  
+  font-size: 18px;
+}
+/* #part2 #skills { */
+/* border: 2px solid black; */
+/* } */
+#part2 #skills div {
+  text-align: center;
+  background: rgb(93, 93, 93);
+  color: white;
+  height: 25px;
+  margin: 10px 0;
+  border-radius: 20px;
+  padding: 0px 80px;
+  /* margin: 0px 400px; */
+  font-size: 18px;
+}
+#part3 {
+  display: flex;
+  margin-bottom: 30px;
+}
+/* #languages { */
+/* border: 2px solid black; */
+/* } */
+#languages div {
+  text-align: center;
+  background: rgb(93, 93, 93);
+  color: white;
+  height: 25px;
+  margin: 10px;
+  border-radius: 20px;
+  padding: 0px 110px;
+  /* margin: 0px 400px; */
+  font-size: 18px;
+}
+/* #education { */
+/* border: 2px solid black; */
+/* } */
+#education div {
+  text-align: center;
+  background: rgb(93, 93, 93);
+  color: white;
+  height: 25px;
+  margin: 10px;
+  border-radius: 20px;
+  padding: 0px 20px;
+  /* margin: 0px 400px; */
+  font-size: 18px;
+}
+#education .box {
+  text-align: center;
+  background: rgb(255, 98, 0);
+  color: white;
+  height: 25px;
+  margin: 10px;
+  border-radius: 20px;
+  padding: 0px 0px;
+  /* margin: 0px 400px; */
+  font-size: 18px;
+}
+#skills {
+  padding: 10px 0px;
+  margin-left: 10px;
+  padding-right: 70px;
+}
+#skills h1 {
+  font-size: 25px;
+  font-weight: bolder;
+  margin-left: 10px;
+}
+h1 {
+  text-align: center;
+  font-size: 25px;
+  font-weight: bolder;
+}
+#part2 {
+  margin-bottom: 20px;
+}
+#languages {
+  padding-left: 10px;
+  padding-right: 50px;
+  border: none;
+}
+/* .contact div {
+  text-align: center;
+  background: rgb(93, 93, 93);
+  color: white;
+  height: 25px;
+  margin: 10px;
+  border-radius: 20px;
+  padding: 0px 20px;
+  margin: 0px 400px;
+  font-size: 18px;
+} */
+.box:hover{
+    background: black;
+    cursor: pointer;
+}
